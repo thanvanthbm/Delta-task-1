@@ -1,0 +1,49 @@
+body
+{
+    font-family: 'press start 2p',cursive;
+    background-color: #216397;
+}
+
+h1
+{
+    text-align: center;
+}
+
+button
+{
+    height: 120px;
+    width: 120px;
+    margin-left: 10%;
+    border-radius: 10px;
+    border: purple 4px;
+    cursor: pointer;
+}
+
+#box{
+    padding-left: 33%;
+    padding-top: 5%;
+}
+
+button:active
+{
+    transform: translateY(4px);
+}
+
+.add
+{
+    box-shadow: 7px 7px 10px rgb(165,59,59);
+    transform: translateY(5px);
+    border-width: 10px;
+}
+
+.button-pressed
+{
+    box-shadow: 0 0 20px #fff;
+    background-color: grey;
+}
+
+.game-over
+{
+    background-color: red;
+    opacity: 0.8;
+}
